@@ -26,7 +26,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 # New Section to display fruityvice api response
 streamlit.header("Fruityvice Fruit Advice!")
-fruit_choice1 = streamlit.text_input('What fruit would you like to add?','jackfruit')
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
 streamlit.write("Thanks for adding jakfruit")
                 
 import requests
